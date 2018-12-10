@@ -10,12 +10,13 @@ $(function(){
                 for(var j=1;j<12;j++){
                     var html2 = "";
                     for(var i=0;i<res.length;i++){
+                        console.log(res[i])
                         if(res[i].lid==j){
-                            var {title,img,price} = res[i];
+                            var {id,title,img,price} = res[i];
                             html2 +=  `<article class="ds2-models--card-item ds2-models-js--card-item ds2-models-js--card-item-active ds2-cardlist--card medium-4 large-3 columns ds2-js-filter--hatch ds2-active" >
                             <div class="ds2-model-card">
                                 <div class="ds2-model-card--image ds2-img-loaded">
-                                    <a href="#">
+                                    <a href="http://localhost:3000/car_detail.html?lid=${id}">
                                         <img class="ds2-image-lazy-loaded" style="height:auto;opacity:1;" src="${img}" alt="">
                                     </a>
                                 </div>
@@ -27,7 +28,7 @@ $(function(){
                                 </h5>
                                 <ul class="ds2-linklist">
                                     <li class="ds2-linklist--item">
-                                        <a class="ds2-link ds2-icon ds2-icon--arrow-big-r-grey-2 ds2-tracking-js--event" href="#">了解详情</a>
+                                        <a class="ds2-link ds2-icon ds2-icon--arrow-big-r-grey-2 ds2-tracking-js--event" href="http://localhost:3000/car_detail.html?lid=${id}">了解详情</a>
                                     </li>
                                 </ul>
                             </div>

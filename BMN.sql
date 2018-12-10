@@ -119,9 +119,12 @@ CREATE TABLE car_detail(
     price DECIMAL(10,2)
 );
 INSERT INTO car_detail VALUES
-(1,"BMW 1系","img/car_detail/bmw1-1-1.jpg","瞬息热恋","BMW 1系两厢运动轿车,蓄势待发","img/car_detail/bmw1-1-1.1.jpg","运动设计?功能内装","img/car_detail/bmw1-1-2.jpg?img/car_detail/bmw1-1-3.jpg","全方位互联?强劲性能?M perfromance","img/car_detail/bmw1-1-4.jpg?img/car_detail/bmw1-1-5.jpg?img/car_detail/bmw1-1-6.jpg","BMW 1系两厢运动轿车",237800);
+(null,"BMW 1系","img/car_detail/bmw1-1-1.jpg","瞬息热恋","BMW 1系两厢运动轿车,蓄势待发","img/car_detail/bmw1-1-1.1.jpg","运动设计?功能内装","img/car_detail/bmw1-1-2.jpg?img/car_detail/bmw1-1-3.jpg","全方位互联?强劲性能?M perfromance","img/car_detail/bmw1-1-4.jpg?img/car_detail/bmw1-1-5.jpg?img/car_detail/bmw1-1-6.jpg","BMW 1系两厢运动轿车",237800);
 INSERT INTO car_detail VALUES
-(3,"BMW 2系","img/car_detail/bmw2-1.jpg","三排座椅，三倍乐趣","新BMW 2系多功能旅行车","img/car_detail/bmw2-2.png","运动设计?功能内装","img/car_detail/bmw1-1-2.jpg?img/car_detail/bmw1-1-3.jpg","全方位互联?强劲性能?M perfromance","img/car_detail/bmw1-1-4.jpg?img/car_detail/bmw1-1-5.jpg?img/car_detail/bmw1-1-6.jpg","BMW 1系两厢运动轿车",237800);
+(null,"BMW 1系","img/car_detail/bmw1-2-1.jpg","我型,我速","BMW 1系三厢运动轿车","img/car_detail/bmw1-2-1.1.jpg","潮流设计?动感内饰?灵活装载","img/car_detail/bmw1-2-2.jpg?img/car_detail/bmw1-2-3.jpg?img/car_detail/bmw1-2-4.jpg","动态性能?互联驾驶","img/car_detail/bmw1-2-5.jpg?img/car_detail/bmw1-2-6.jpg","BMW 1系三厢运动轿车",199800);
+
+INSERT INTO car_detail VALUES
+(null,"BMW 2系","img/car_detail/bmw2-1.jpg","三排座椅，三倍乐趣","新BMW 2系多功能旅行车","img/car_detail/bmw2-2.png","运动设计?功能内装","img/car_detail/bmw1-1-2.jpg?img/car_detail/bmw1-1-3.jpg","全方位互联?强劲性能?M perfromance","img/car_detail/bmw1-1-4.jpg?img/car_detail/bmw1-1-5.jpg?img/car_detail/bmw1-1-6.jpg","BMW 1系两厢运动轿车",237800);
 
 CREATE TABLE user_u(
     id INT PRIMARY KEY AUTO_INCREMENT,
